@@ -6,8 +6,10 @@
   
       <title>Carousel</title>
     
-      <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
       
+      <script src="jquery-2.0.3.js"></script>
+
       <script src="bootstrap.js"></script>
 
   </head>
@@ -16,24 +18,24 @@
   
     <h1>Carousel</h1>
     
-        <div class="container">
-
-		<div class="navbar">
-
-			<div class="navbar-inner">
-
-				<a class="brand" href="http://getbootstrap.com/2.3.2/javascript.html#carousel">Twitter Bootstrap Carousel</a>
-
-			</div>
-
-		</div>
-
-		<div id="myCarousel" class="carousel slide">
-                     
-                        <div class="carousel-inner">
-
-				<div class="item active">
-
+        <div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item">…</div>
+    
+    <img scr=
+    <div class="item">…</div>
+    <div class="item">…</div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
   </body>
   
 </html>
